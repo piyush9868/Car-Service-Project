@@ -1,4 +1,4 @@
-package com.accenture.lkm.business.bean;
+package com.project.business.bean;
 
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;

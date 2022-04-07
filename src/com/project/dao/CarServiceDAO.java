@@ -1,4 +1,4 @@
-package com.accenture.lkm.dao;
+package com.project.dao;
 
 import java.util.Date;
 import java.util.List;
@@ -7,7 +7,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.RepositoryDefinition;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.accenture.lkm.entity.CarServiceEntity;
+import com.project.entity.CarServiceEntity;
 
 @RepositoryDefinition(idClass = Integer.class, domainClass = CarServiceEntity.class)
 @Transactional(value = "txManager")

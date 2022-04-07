@@ -1,4 +1,4 @@
-package com.accenture.lkm.entity;
+package com.project.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -8,7 +8,7 @@ import javax.persistence.Table;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
-import com.accenture.lkm.business.bean.PartsBean;
+import com.project.business.bean.PartsBean;
 
 @Entity
 @Table(name = "carservice")

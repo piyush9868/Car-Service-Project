@@ -1,4 +1,4 @@
-package com.accenture.lkm.service;
+package com.project.service;
 
 import java.util.HashMap;
 import java.util.List;
@@ -7,9 +7,9 @@ import java.util.Map;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.accenture.lkm.business.bean.CarServiceBean;
-import com.accenture.lkm.business.bean.PartsBean;
-import com.accenture.lkm.dao.CarServiceDaoWrapper;
+import com.project.business.bean.CarServiceBean;
+import com.project.business.bean.PartsBean;
+import com.project.dao.CarServiceDaoWrapper;
 
 @Service
 public class CarServiceImpl implements CarService{

@@ -1,2 +1,0 @@
-
--- Table Script goes here.

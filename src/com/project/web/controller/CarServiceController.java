@@ -1,4 +1,4 @@
-package com.accenture.lkm.web.controller;
+package com.project.web.controller;
 
 import java.util.List;
 import java.util.Map;
@@ -18,9 +18,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.accenture.lkm.business.bean.CarServiceBean;
-import com.accenture.lkm.service.CarService;
-import com.accenture.lkm.service.CarServiceImpl;
+import com.project.business.bean.CarServiceBean;
+import com.project.service.CarService;
+import com.project.service.CarServiceImpl;
 
 @Controller
 public class CarServiceController {

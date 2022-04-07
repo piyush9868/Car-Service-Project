@@ -1,9 +1,9 @@
-package com.accenture.lkm.service;
+package com.project.service;
 
 import java.util.List;
 import java.util.Map;
 
-import com.accenture.lkm.business.bean.CarServiceBean;
+import com.project.business.bean.CarServiceBean;
 
 public interface CarService {
 	

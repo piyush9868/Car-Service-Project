@@ -1,4 +1,4 @@
-package com.accenture.lkm.dao;
+package com.project.dao;
 
 import java.sql.ResultSet;
 import java.util.ArrayList;
@@ -13,10 +13,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.accenture.lkm.business.bean.CarServiceBean;
-import com.accenture.lkm.business.bean.PartsBean;
-import com.accenture.lkm.entity.CarServiceEntity;
-import com.accenture.lkm.entity.PartsEntity;
+import com.project.business.bean.CarServiceBean;
+import com.project.business.bean.PartsBean;
+import com.project.entity.CarServiceEntity;
+import com.project.entity.PartsEntity;
 
 @Repository
 @Transactional(value = "txManager")

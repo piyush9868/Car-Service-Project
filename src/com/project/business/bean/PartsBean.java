@@ -1,14 +1,7 @@
-package com.accenture.lkm.entity;
+package com.project.business.bean;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
-
-@Entity
-@Table(name = "parts")
-public class PartsEntity {
+public class PartsBean {
 	
-	@Id
 	private Integer partId;
 	private String partName;
 	private int price;
